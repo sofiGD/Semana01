@@ -35,7 +35,7 @@ public class InfoEstudiante {
 	private Estudiante e1;
 
 	public static void main(String[] args) {
-		Estudiante alumno = new Estudiante("H2O", "Juanito", "hombre");
+		Estudiante alumno = new Estudiante("H2O", "ESTEBAN", "hombre");
 		
 		System.out.println("codigo: "+alumno.codigo+ " " +alumno.nombre+" Español final: "+promediarEs() +" sexo: "+alumno.sexo);
 		
